@@ -1,0 +1,54 @@
+@model Contact
+
+@{
+    ViewData["Title"] = "Contato";
+}
+
+
+
+    <header>
+        <h1>Afrikatranças</h1>
+        <p> O meu cabelo é minha identidade.</p>
+    </header>
+    <a asp-controller="home" asp-action="Index">Inicio</a>
+    <a asp-controller="home" asp-action="Quemsomos">Quem somos</a>
+    <a asp-controller="home" asp-action="Produtos">Produtos</a>
+    <a asp-controller="home" asp-action="TratamentoNaturais">Tratamentos Naturais</a>
+
+    
+
+    
+        <h1>Entre em contato conosco</h1>
+        <br>
+        <form method="POST"  asp-action="Contato">
+            <p>
+                <label asp-for="Nome">Nome:</label>
+                <input asp-for="Nome">
+            </p>
+            <p>
+                <label asp-for="Telefone">Telefone:</label>
+                <input asp-for="Telefone">
+            </p>
+            <p>
+                <label asp-for="Cidade">Cidade:</label>
+                <input asp-for="Cidade">
+            </p>
+
+            <p>
+                <label for="Pergunta">Faça uma pergunta!</label>
+                <input asp-for="Pergunta" >
+    
+                
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
+
+
+        </form>
+        
+    </div>
+
+
+
+

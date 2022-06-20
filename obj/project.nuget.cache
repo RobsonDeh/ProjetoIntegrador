@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+sSMJC4mb4lR7cvt0JGF/gsGnCnH1+KNFc37OjzYmZfeUvnBh4414MN+oNSd2GtlkJPDFxpZabdm568eTg71dA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\robso\\OneDrive\\Área de Trabalho\\ProjetoInt03_Robson\\ProjetoInt03_Robson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\robso\\.nuget\\packages\\mysqlconnector\\2.1.7\\mysqlconnector.2.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

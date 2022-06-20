@@ -1,0 +1,10 @@
+CREATE DATABASE Afrika;
+
+CREATE TABLE Contato (
+Id int (11) AUTO_INCREMENT,
+Nome varchar (200),
+Telefone int (11),
+Cidade varchar (80),
+Pergunta varchar (200),
+PRIMARY KEY (Id)
+);
