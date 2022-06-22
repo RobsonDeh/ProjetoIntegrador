@@ -65,7 +65,7 @@ body .index{
 }
 .footer {
   position: absolute;
-  color: aqua;
+  color: rgb(44, 71, 71);
   bottom: 0;
   width: 100%;
   white-space: nowrap;

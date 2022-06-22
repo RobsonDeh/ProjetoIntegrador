@@ -6,24 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>afrikaTranças</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="~/css/afrika.css" />
 </head>
 
-<body>
-    <header>
-        <h1>Afrikatranças</h1>
-        <p> O meu cabelo é minha identidade.</p>
-    </header>
-       <a asp-controller="home" asp-action="Index">Inicio</a>
-    <a asp-controller="home" asp-action="Quemsomos">Quem somos</a>
-    <a asp-controller="home" asp-action="Produtos">Produtos</a>
-    <a asp-controller= "home" asp-action= "TratamentoNaturais">Tratamentos Naturais</a>
-    <a asp-controller= "home" asp-action="Contato">Contato</a>
-    <div>
-        <p>
-            <input type="text">
-            <input type="submit" value="buscar">
-        </P>
+<header>
+  <h1 class="titulo">Afrikatranças</h1>
+    
+</header>
+<div class="barra">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a asp-controller="home" asp-action="Quemsomos">Quem somos</a>
+              <a asp-controller="home" asp-action="Produtos">Produtos</a>
+              <a asp-controller="home" asp-action="TratamentoNaturais">Tratamentos Naturais</a>
+              <a asp-controller="home" asp-action="Contato">Contato</a>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+<body class="corpo">
+    <div class="container">
+       
         <h1>Tratamentos Naturais</h1>
         <p>Ingredientes como banana, abacate, mel e iogurte podem ser usados para preparar máscaras caseiras que
             hidratam

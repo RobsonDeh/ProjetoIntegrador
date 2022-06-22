@@ -1,13 +1,72 @@
-.corpo{
-   background-color: rgb(188,206,251);
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.corpo{   
+        
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: #D9AFD9;
+    background-color: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);        
 }
+
+.barra{
+    text-align: right;
+    padding-bottom:150px;
+
+    
+}
+
 .titulo{
-    font-size:80px ;
-    color:rgb(78, 61, 87);
+    font-family: 'Parisienne';    
+    font-size: 100px;
+    text-align: left;
+
+
 }
-.image{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+.subt{
+    font-family: 'Parisienne';
+    font-size: 20px;    
+    text-align: right;
+    position: absolute;   
+
+}
+
+h1,h2,h3{
+    text-align: left;
+    
+}
+
+p {
+    text-align: left;
+}
+form{
+    text-align: right;
+}
+
+
+ul{
+    text-align: left;
+    
+}
+.slides{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+    overflow-y:auto ;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.slides > img{
+    scroll-snap-align: start;
+
+}
+
+.slides img{
+    border-radius: 10px;
+    width: 320px;
+    object-fit: contain;
+}
+
+.slides::-webkit-scrollbar{
+    display: none;
 }
